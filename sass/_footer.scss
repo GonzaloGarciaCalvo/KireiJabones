@@ -1,0 +1,47 @@
+.footer{
+    height: 20em;
+    margin-left: 5em;
+    margin-top: 5em;
+}
+.logo{
+    width: 12em;
+}
+.subtitulo_footer{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.05em;
+    margin-bottom: 1em;
+}
+.mapa{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.05em;
+    line-height: 1.2em;
+}
+.contactos{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.05em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.iconos{
+    width: 3em;
+}
+.borde_pie{
+    box-shadow: rgba(153, 153, 153, 0.473) 0 0 8px 0px;
+}
+
+@media  screen and (max-width: 425px){
+    .footer{
+        height: 45em;
+        margin-left: 1em;
+        margin-top: 2em;
+    }
+    .contactos{
+        width: 0;
+        max-width: 0;
+        flex-wrap: nowrap;
+        padding-right: 1em;
+    }
+}
