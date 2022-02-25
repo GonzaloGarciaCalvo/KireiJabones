@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="shortcut icon" href="images/favicon_kirei.jpg">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Kirie Jabones</title>
+</head>
+<body>
+    <div class="row rowDeNavbar m-0 g-0 p-0">
+        <div class="col-12 px-0">
+            <nav class="navbar navbar-expand-md navbar-light menu--color text-white">
+                <div class="container-fluid"> 
+                    <div class="d-flex flex-row justify-content-around encabezadoMovil"> <!-- NO BORRAR .d-flex.row.encabezadoMovil, son switch del encabezado -->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>  <!-- boton metido dentro del div para poder alinearlos -->
+                        </button> 
+                    </div>
+                    <div>
+                        <h1 class="navbar-brand ">Kirei Jabones</h1>
+                    </div>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                            <a class="nav-link" href="catalogo/bolsitas.html">Catalogo</a>
+                            <a class="nav-link" href="pages/nosotros.html">Sobre Nosotros</a>
+                            <a class="nav-link" target="_blanck"href="https://api.whatsapp.com/send?phone=541150099051&amp;text=Hola!&nbsp;dejanos&nbsp;tu&nbsp;mensaje"target="_blank">
+                            Contactanos
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <main class="container-fluid  g-0 m-0">
+        <div class="row m-0">
+            <img src="multimedia/fotos_inicio_nosotros/banner_inicio.jpg" alt="banner" class="banner">
+            <img src="multimedia/fotos_inicio_nosotros/" alt="banner" class="banner2">
+            <h2 class="sloganBanner">Bello y Limpio, Kirei</h2>
+            <h3 class="subTitulobanner">Compra los mejores jabones veganos</h3>
+            <button type="button" class="btnBanner">Ver el catalogo</button>
+        </div>
+        <div class="row boxCarrusel mt-5  "> 
+            <h3 class="tituloCarrusel">Los más vendidos</h3>
+            <div id="miCarrusel" class="carousel slide multiCarrusel mx-auto" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active  grupo--1">
+                        <div class="row p-0 auxiliarDeCentrado"> 
+                            <div class=" col-4 card">
+                                <img src="multimedia/fotos_inicio_nosotros/carrusel1.jpg" class="d-block w-100 h-100 imagenDeCarrusel"alt="no carga foto">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Masajeador de Hojas Orgánicas</h5>
+                                </div> 
+                            </div>
+                            <div class=" col-4 card">
+                                <img src="multimedia/fotos_inicio_nosotros/carrusel2.jpg" class="d-block w-100" alt="no carga foto">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Cupcake</h5>
+                                </div> 
+                            </div>
+                            <div class="col-4 card">
+                                <img src="multimedia/fotos_inicio_nosotros/carrusel3.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Exfoliante para pies</h5>
+                                </div> 
+                            </div> 
+                        </div>       
+                    </div>
+                    <!-- CARROUSEL  -->
+                    <div class="carousel-item  grupo--2">
+                            <div class="row p-0">
+                                <div class="col-4 card ">
+                                    <img src="multimedia/fotos_inicio_nosotros/carrusel4.jpg" class="d-block w-100" alt="no carga foto">
+                                    <div class="carousel-caption d-none d-md-block">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Masajeador extractos</h5>
+                                    </div> 
+                                </div>
+                                <div class="col-4 card">
+                                    <img src="multimedia/fotos_inicio_nosotros/carrusel5.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Pintados</h5>
+                                    </div> 
+                                </div>
+                                <div class="col-4 card">
+                                    <img src="multimedia/fotos_inicio_nosotros/carrusel6.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Merenguitos</h5>
+                                    </div> 
+                                </div>
+                            </div>
+                    </div>
+                    <div class="carousel-item  grupo--3">
+                        <div class="row p-0">
+                            <div class="col-4 card ">
+                                <img src="multimedia/fotos_inicio_nosotros/carrusel7.jpg" class="d-block w-100" alt="no carga foto">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Gemas</h5>
+                                </div> 
+                            </div>
+                            <div class="col-4 card">
+                                <img src="multimedia/fotos_inicio_nosotros/carrusel8.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Flan</h5>
+                                </div> 
+                            </div>
+                            <div class="col-4 card">
+                                <img src="multimedia/fotos_inicio_nosotros/carrusel9.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Cristales</h5>
+                                </div> 
+                            </div>
+                        </div>
+                </div>
+                </div>
+                <button class="carousel-control-prev carrusel2" type="button" data-bs-target="#miCarrusel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next carrusel2" type="button" data-bs-target="#miCarrusel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="row losMasVendidosMovil">
+            <h3 class="losMasVendidos__titulo">Los más vendidos</h3>
+            <div class="card ">
+                <img src="multimedia/fotos_inicio_nosotros/carrusel1.jpg" class="d-block w-100" alt="foto jabón masajeador con hojas orgánicas">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Masajeador con hojas orgánicas</h5>
+                </div> 
+            </div>
+            <div class="card">
+                <img src="multimedia/fotos_inicio_nosotros/carrusel2.jpg" class="d-block w-100" alt="foto jabón Cupcake ">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Cupcake</h5>
+                </div> 
+            </div>
+            <div class="card">
+                <img src="multimedia/fotos_inicio_nosotros/carrusel3.jpg" class="d-block w-100" alt="foto jabón exfoliante para pies">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Exfoliante para pies</h5>
+                </div> 
+            </div>
+            <div class="card ">
+                <img src="multimedia/fotos_inicio_nosotros/carrusel4.jpg" class="d-block w-100" alt="foto jabón masajeador con hojas orgánicas">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Masajeador extractos</h5>
+                </div> 
+            </div>
+            <div class="card">
+                <img src="multimedia/fotos_inicio_nosotros/carrusel5.jpg" class="d-block w-100" alt="foto jabón Cupcake ">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Pintados</h5>
+                </div> 
+            </div>
+            <div class="card">
+                <img src="multimedia/fotos_inicio_nosotros/carrusel5.jpg" class="d-block w-100" alt="foto jabón exfoliante para pies">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Merenguitos</h5>
+                </div> 
+            </div>
+            <div class="card ">
+                <img src="multimedia/fotos_inicio_nosotros/carrusel7.jpg" class="d-block w-100" alt="foto jabón masajeador con hojas orgánicas">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Gemas</h5>
+                </div> 
+            </div>
+            <div class="card">
+                <img src="multimedia/fotos_inicio_nosotros/carrusel8.jpg" class="d-block w-100" alt="foto jabón Cupcake ">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Flan</h5>
+                </div> 
+            </div>
+            <div class="card">
+                <img src="multimedia/fotos_inicio_nosotros/carrusel9.jpg" class="d-block w-100" alt="foto jabón exfoliante para pies">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Pintados</h5>
+                </div> 
+            </div>
+        </div>
+        <div class="circuloWhatsapp m-0 p-0">
+            <a target="_blanck"href="https://api.whatsapp.com/send?phone=541150099051&amp;text=Hola!&nbsp;dejanos&nbsp;tu&nbsp;mensaje"target="_blank">
+                <img src="multimedia/fotos_inicio_nosotros/whatsappIcon.png" alt="icono de carrito" class=" iconoWhastapp">  
+            </a>
+        </div> 
+        <div class="row boxProcesoDeCompra g-0"> 
+            <p class="tituloProcesoCompra">Como comprar</p>
+            <div class="row descripcionProceso ">
+                <div class="col-12 col-sm-12 col-md-4 boxEtapaCompra">
+                    <div class="circulo">
+                        <img src="multimedia/fotos_inicio_nosotros/shopping-cart.png" alt="icono de carrito" class="iconoInformacion">
+                    </div>
+                    <h6>Paso 1</h6>
+                    <p class="w-50">Miras el catálogo y escoges el jabón que te interesa</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 boxEtapaCompra">
+                    <div class="circulo">
+                        <img src="multimedia/fotos_inicio_nosotros/Vector.png" alt="icono de carrito" class="iconoInformacion">
+                    </div>
+                    <h6>Paso 2</h6>
+                    <p class="w-75">Le das al botón de Whatsapp y te contactarás con nosotros para recibir los precios de los jabones</p>
+                </div>
+                <div class="col-12 col-md-4 boxEtapaCompra">
+                    <div class="circulo">
+                        <img src="multimedia/fotos_inicio_nosotros/package.png" alt="icono de carrito" class="iconoInformacion">
+                    </div>
+                    <h6>Paso 3</h6>
+                    <p class="w-50">Haces el pago y acordamos la entrega</p>
+                </div>
+            </div>
+        </div>
+        <div class="boxCatalogoHome g-0">
+            <p>Catálogo</p>
+            <div class="row boxItemsCatalogo g-0">
+                <div class="col-6 col-md-4 itemCatalogoHome  g-3">
+                    <img src="multimedia/fotos_inicio_nosotros/catalogo1.jpg" alt="Bolsitas de jabones" class="imgCatalogoHome img-fluid">
+                    <button type="button" class="btnItemCatalogoHome">Ver más</button>
+                    <p>Bolsitas</p>
+                </div>
+                <div class="col6 col-md-4 itemCatalogoHome g-3">
+                    <img src="multimedia/fotos_inicio_nosotros/catalogo2.jpg" alt="jabones de tocador" class="imgCatalogoHome ">
+                    <button type="button" class="btnItemCatalogoHome">Ver más</button>
+                    <p>Tocador</p>
+                </div>
+                <div class="col-6 col-md-4 itemCatalogoHome g-3">
+                    <img src="multimedia/fotos_inicio_nosotros/catalogo3.jpg" alt="" class="imgCatalogoHome " >
+                    <button type="button" class="btnItemCatalogoHome">Ver más</button>
+                    <p>Jaboneras</p>
+                </div>
+                <div class="col-6 col-md-4 itemCatalogoHome g-3">
+                    <img src="multimedia/fotos_inicio_nosotros/catalogo4.jpg" alt="Bolsitas de jabones" class="imgCatalogoHome ">
+                    <button type="button" class="btnItemCatalogoHome">Ver más</button>
+                    <p>Exfoliantes</p>
+                </div>
+                <div class="col-6 col-md-4 itemCatalogoHome g-3">
+                    <img src="multimedia/fotos_inicio_nosotros/catalogo5.jpg" alt="jabones patisserie" class="imgCatalogoHome ">
+                    <button type="button" class="btnItemCatalogoHome">Ver más</button>
+                    <p>Patisserie</p>
+                </div>
+                <div class="col-6 col-md-4 itemCatalogoHome g-3">
+                    <img src="multimedia/fotos_inicio_nosotros/catalogo6.jpg" alt="foto de jaboneras" class="imgCatalogoHome " >
+                    <button type="button" class="btnItemCatalogoHome">Ver más</button>
+                    <p>Masajeadores</p>
+                </div>
+            </div>
+            <button class="btnBoxCatalogoHome">Ver todo el catalogo</button>
+        </div>
+        <!-- <div class="row boxRedes"> -->
+        <div class="row boxRedes">
+            <h6>Sígenos en instagram</h6>
+            <p>@kireijabones</p>
+            <div class="row boxItemsRedes">
+                <div class="col-6 col-sm-6 col-md-3 itemRedes">
+                    <img src="multimedia/fotos_inicio_nosotros/inicio_redes1.jpg" alt="foto decorativa" class="imgBoxRedes img-fluid">
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 itemRedes">
+                    <img src="multimedia/fotos_inicio_nosotros/inicio_redes2.jpg" alt="foto decorativa" class="imgBoxRedes img-fluid">
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 itemRedes">
+                    <img src="multimedia/fotos_inicio_nosotros/inicio_redes3.jpg" alt="foto decorativa" class="imgBoxRedes img-fluid">
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 itemRedes">
+                    <img src="multimedia/fotos_inicio_nosotros/inicio_redes4.jpg" alt="foto decorativa" class="imgBoxRedes img-fluid">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-fluid borde_pie">
+            <div class="row align-items-center justify-content-between footer">
+                <div class="col-md-4">
+                    <img class="logo" src="../multimedia/Iconos Kirei/Kirei.jpg" alt="logo">
+                </div>
+                <div class="col-md-4">
+                    <h5 class="subtitulo_footer">Navegación</h5>
+                    <p class="mapa">inicio</p>
+                    <p class="mapa">Catálogo</p>
+                    <p class="mapa">Contáctanos</p>
+                    <p class="mapa">Sobre Nosotros</p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="subtitulo_footer">Contáctanos</h5>
+                    <div class="container p-0">
+                        <div class="row contactos">
+                            <div class="col-md-1">
+                                <img class="align-items-start" src="../multimedia/Iconos Kirei/clarity_phone-handset-solid.png" alt="telefono">
+                            </div>
+                            <div class="col-md-3">
+                                +5491149768017
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container p-0">
+                        <div class="row contactos">
+                            <div class="col-md-1">
+                                <img src="../multimedia/Iconos Kirei/ci_mail.png" alt="email">
+                            </div>
+                            <div class="col-md-3">
+                                kireijabonesartesanales@gmail.com
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container p-0">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <img src="../multimedia/Iconos Kirei/whatsapp.png" class="iconos" alt="logo whatsapp">
+                            </div>
+                            <div class="col-md-2">
+                                <img src="../multimedia/Iconos Kirei/tiktok.png" class="iconos" alt="logo tiktok">
+                            </div>
+                            <div class="col-md-2">
+                                <img src="../multimedia/Iconos Kirei/instagram.png" class="iconos" alt="logo instagram">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"crossorigin="anonymous"></script>
+</body>
+</html>
