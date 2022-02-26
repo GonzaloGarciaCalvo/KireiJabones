@@ -33,16 +33,13 @@ body {
 }
 
 .navbar{
-    /* height: 9.1875em; */
     height: 7.4em;
-/*     width: 100vw; */
 }
 
 .navbar-brand {
     color: black;
     font-weight: 800;
     font-size: 1.5em;
-    /* margin-left: 2.7em; */
     margin-left: 7em;
 }
 
@@ -64,9 +61,7 @@ body {
                 /*BANNER*/
 .sloganBanner{
     font-weight: 600;
-    /* font-size: 4em; */
     font-size: 3.2em;
-    /* position: absolute; left: 0.8em; top: 3.5625em; */
     position: absolute; left: 2.1em; top: 3.7em;
     width: 80%;
     z-index: 1;
@@ -80,10 +75,8 @@ body {
 .banner{
     z-index: -1;
     height: auto;
-    /* opacity: 0.7; */
     opacity: 0.73;
     box-sizing: border-box;
-    /* width: 100vw; */
     width: 100%;
     padding: 0;
 }
@@ -180,7 +173,6 @@ body {
 .iconoWhastapp{
     width: 2.7em;
     height: 2.7em;
-
 }
 .descripcionProceso{
     display: flex;
@@ -213,7 +205,6 @@ body {
     margin-top: 0em;
     margin-bottom: 1.5em;
 }
-    /** CATALOGO DE INICIO   **/
 .boxCatalogoHome {
     width: 100%;
 }
@@ -231,10 +222,7 @@ body {
 }
 .itemCatalogoHome {
     width: 26.3em;
-    /* height: 25em; */
     height: auto;
-   /*max-width: 25em;
-   min-width: 15em; */
     margin-left: 0.5em;
     margin-right: 0.5em;
     margin-bottom: 1em;
@@ -254,9 +242,6 @@ body {
     height: 25em;
 }
 .imgCatalogoHome{
-    /* max-width: 25em;
-    min-width: 15em; */
-    /* no height: 25em; */
     max-width: 100%;
     height: auto;
     z-index: -1;
@@ -277,7 +262,6 @@ body {
     align-items: center;
     margin-top: 1.9em;
     position: absolute; bottom: 4.9em; 
-    /*centrado con align-self*/
     z-index: 2;
 }
 .btnBoxCatalogoHome {
@@ -328,12 +312,6 @@ body {
     padding-right: 7em;
     margin-left: 0;
     margin-right: 0;
-}
-.itemRedes {
-
-    /* width: 20%;
-    min-width: 12em; */
-
 }
 
 /***PAGINA NOSOTROS  ***/
@@ -415,12 +393,6 @@ body {
     flex-direction: row-reverse;
     justify-content: flex-start;
 }
-/* .uno {
-    display: flex;
-}
-.dos {
-    display: flex;
-} */
 
 /** MEDIAQUERIES  **/
 @media (min-width: 577) and (max-width:1920) {
@@ -463,8 +435,6 @@ body {
         padding-right: 0;
     }
     .btnBanner {
-        /* width: 13.5em;
-        height: 3.05em; */
         width: 9em;
         height: 2em;
         position: absolute; left: 1.15em; top: 12.4em;
@@ -490,7 +460,6 @@ body {
         height: 8em;
         border-radius: 50%;
         background-color: rgb(248, 253, 252);
-        /* background-color: #F0D0F0; */
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -507,12 +476,6 @@ body {
         width: 4em;
         height: 4em;
     }
-    /* .boxEtapaCompra{
-        width: 50%;
-    } */
-    /* .imgBoxRedes{
-        width: 15em
-    } */
     .itemCatalogoHome {
         margin-bottom: 3em;
         padding-left: 1.5em;
