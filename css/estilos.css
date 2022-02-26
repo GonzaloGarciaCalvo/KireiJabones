@@ -333,6 +333,58 @@ body {
     margin-left: 0;
     margin-right: 0;
 }
+/* FOOTER         */
+.footer{
+    height: 20em;
+    margin-left: 5em;
+    margin-top: 5em;
+}
+.logo{
+    width: 12em;
+}
+.subtitulo_footer{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.05em;
+    margin-bottom: 1em;
+}
+.mapa{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.05em;
+    line-height: 1.2em;
+}
+.contactos{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.05em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.iconos{
+    width: 3em;
+}
+.borde_pie{
+    box-shadow: rgba(153, 153, 153, 0.473) 0 0 8px 0px;
+}
+
+@media  screen and (max-width: 425px){
+    .footer{
+        height: 45em;
+        margin-left: 1em;
+        margin-top: 2em;
+    }
+    .contactos{
+        width: 0;
+        max-width: 0;
+        flex-wrap: nowrap;
+        padding-right: 1em;
+    }
+    .iconoR{
+        flex-wrap: nowrap;
+        width: 3em;
+    }
+}
 
 /***PAGINA NOSOTROS  ***/
 .btnNosotros{
@@ -415,15 +467,83 @@ body {
 }
 
 /** MEDIAQUERIES  **/
-@media (min-width: 992) and (max-width:1920) {
-    .banner2 {
-        display: none;
+
+
+
+
+
+
+
+
+@media (min-width: 992) and (max-width:1199.98) {
+    /* .banner2 {
+        display: none
     }
     .banner{
-        display: block;
+        display: block
+    } */
+    .navbar-brand {
+        font-size: 1.5em;
+        margin-left: 5.5em
+    }
+    
+    .navbar-nav{
+        /* margin-right: 6.95em; */
+        margin-right: 6.45em
+    }
+
+}
+
+@media (min-width: 768) and (max-width:991.98) {
+    .banner2 {
+        display: none
+    }
+    .banner{
+        display: block
+    }
+    .navbar-brand {
+        font-size: 1.5em;
+        margin-left: 4.5em !important
+    }
+    
+    .navbar-nav{
+        /* margin-right: 6.45em; */
+        margin-right: 5.45 !important
+    }
+    .sloganBanner{
+        font-size: 1.7em;
+        position: absolute; left: 0.4em; top: 3em;
+        padding-left: 0;
+        width: 90%;
+    }
+    .subTitulobanner{
+        font-size: 1em;
+        position: absolute; left: 0.2em; top: 8.4em;
+        width: 97%;
+        padding-right: 0;
+    }
+
+}
+
+@media (min-width: 577.98) and (max-width:767.98) {
+    .banner2 {
+        display: none
+    }
+    .banner{
+        display: block
+    }
+    .navbar-brand {
+        font-size: 1.5em;
+        margin-left: 4.5em !important
+    }
+    
+    .navbar-nav{
+        /* margin-right: 6.45em; */
+        margin-right: 5.45 !important
     }
 }
-@media (min-width: 0px) and (max-width: 576px)  {
+
+@media (min-width: 0px) and (max-width: 576.98px)  {
     .body {
         overflow: hidden !important;
     }
@@ -464,9 +584,12 @@ body {
         margin-bottom: 0em; 
     }
     .losMasVendidosMovil {
-        display: block;
-        padding-left: 1.5em;
-        padding-right: 1.5em;
+        /* display: block; */
+        /* padding-left: 1.5em;
+        padding-right: 1.5em; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .boxCarrusel {
         display: none;
@@ -474,6 +597,7 @@ body {
     .losMasVendidos__titulo{ 
         font-size: 1.5em;
         padding-top: 1.5em;
+        padding-left: 2.5em;
     }
     .circulo {
         width: 8em;
