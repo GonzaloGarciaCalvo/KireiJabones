@@ -12,7 +12,36 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body> 
+<body>
+     <header>
+        <div class="row rowDeNavbar m-0 g-0 p-0">
+            <div class="col-12 px-0">
+                <nav class="navbar navbar-expand-md navbar-light menu--color text-white">
+                    <div class="container-fluid"> 
+                        <div class="d-flex flex-row justify-content-around encabezadoMovil"> <!-- NO BORRAR .d-flex.row.encabezadoMovil, son switch del encabezado -->
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>  <!-- boton metido dentro del div para poder alinearlos -->
+                            </button> 
+                        </div>
+                        <div>
+                            <h1 class="navbar-brand ">Kirei Jabones</h1>
+                        </div>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link" href="../index.html">Inicio</a>
+                                <a class="nav-link" href="../catalogo/general.html">Catalogo</a>
+                                <a class="nav-link" href="../pages/nosotros.html">Sobre Nosotros</a>
+                                <!-- <a class="nav-link" href="#">Contactanos</a> -->
+                                <a class="nav-link" target="_blanck"href="https://api.whatsapp.com/send?phone=541150099051&amp;text=Hola!&nbsp;dejanos&nbsp;tu&nbsp;mensaje"target="_blank">
+                                Contactanos
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
     <main>
         <a class="volver" href="../catalogo/tocador.html"><h5 class="subtitulo_productos">Catálogo > Tocador</h5></a>
         <div class="container-fluid">
