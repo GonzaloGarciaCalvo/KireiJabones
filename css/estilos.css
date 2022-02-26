@@ -107,6 +107,17 @@ body {
     align-items: center;
 }
         /** CAROUSEL  **/
+.carousel-inner {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center; */
+    width: 85vw;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+}
 .tituloCarrusel {
     font-weight: 900;
     font-size: 2.2em;
@@ -126,9 +137,18 @@ body {
     margin-right: 0;
     overflow-x: hidden;
 }
+/* .imagenDeCarrusel {
+    width: 24em;
+    height: 24em;
+} */
+.card.subItemCarrusel {
+    width: 32.75%;
+   /*  width: auto; */
 
+}
 .carousel.slide{
     width: 85vw;
+    /* width: 100%; */
 }
 .card-title{
     text-align: center;
@@ -395,7 +415,7 @@ body {
 }
 
 /** MEDIAQUERIES  **/
-@media (min-width: 577) and (max-width:1920) {
+@media (min-width: 992) and (max-width:1920) {
     .banner2 {
         display: none;
     }
@@ -600,3 +620,7 @@ body {
         display: flex;
     }
 }
+
+/* @media (min-width: 577px) and (max-width: 576px) {
+
+} */
