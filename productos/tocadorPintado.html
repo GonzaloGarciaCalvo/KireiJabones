@@ -12,7 +12,36 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body> 
+<body>
+     <header>
+        <div class="row rowDeNavbar m-0 g-0 p-0">
+            <div class="col-12 px-0">
+                <nav class="navbar navbar-expand-md navbar-light menu--color text-white">
+                    <div class="container-fluid"> 
+                        <div class="d-flex flex-row justify-content-around encabezadoMovil"> <!-- NO BORRAR .d-flex.row.encabezadoMovil, son switch del encabezado -->
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>  <!-- boton metido dentro del div para poder alinearlos -->
+                            </button> 
+                        </div>
+                        <div>
+                            <h1 class="navbar-brand ">Kirei Jabones</h1>
+                        </div>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link" href="../index.html">Inicio</a>
+                                <a class="nav-link" href="../catalogo/general.html">Catalogo</a>
+                                <a class="nav-link" href="../pages/nosotros.html">Sobre Nosotros</a>
+                                <!-- <a class="nav-link" href="#">Contactanos</a> -->
+                                <a class="nav-link" target="_blanck"href="https://api.whatsapp.com/send?phone=541150099051&amp;text=Hola!&nbsp;dejanos&nbsp;tu&nbsp;mensaje"target="_blank">
+                                Contactanos
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
     <main>
         <a class="volver" href="../catalogo/tocador.html"><h5 class="subtitulo_productos">Catálogo > Tocador</h5></a>
         <div class="container-fluid">
@@ -60,34 +89,34 @@
         <div class="container-fluid">
             <div class="row cartaProducto">
                 <div class="col">
-                    <div class="card">
+                    <div class="card carta">
                         <a href="../productos/tocadorCorazon.html"><img src="../multimedia/Fotos Producto/p_jabones_de_tocador_corazon_diamante_con_nacar.jpg" class="card-img-top" alt="tocador Corazon"></a>
                         <div class="card-body">
-                        <p class="card-text">Jabónes de tocador corazon diamante con nácar</p>
+                        <p class="card-text carta-text">Jabónes de tocador corazon diamante con nácar</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card carta">
                         <a href="../productos/tocadorRedondo.html"><img src="../multimedia/Fotos Producto/p_jabones_de_tocador_redondos_rectangulares.jpg" class="card-img-top" alt="tocador Pintado"></a>
                         <div class="card-body">
-                        <p class="card-text">Jabones de tocador redondos/ rectangulares </p>
+                        <p class="card-text carta-text">Jabones de tocador redondos/ rectangulares </p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                  <div class="card">
+                  <div class="card carta">
                       <a href="../productos/exfoliantePies.html"><img src="../multimedia/Fotos Producto/p_jabones_exfoliantes_para_pies.jpg" class="card-img-top" alt="exfoliante pies"></a>
                       <div class="card-body">
-                      <p class="card-text p-2 m1">Jabónes exfoliantes para pies</p>
+                      <p class="card-text carta-text p-2 m1">Jabónes exfoliantes para pies</p>
                       </div>
                   </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card carta">
                         <a href="../productos/exfolianteCorporal.html"><img src="../multimedia/Fotos Producto/p_jabones_exfoliantes_corporales.jpg" class="card-img-top" alt="exfoliante corporales"></a>
                         <div class="card-body">
-                        <p class="card-text p-2 m-1">Jabónes exfoliantes corporales</p>
+                        <p class="card-text carta-text p-2 m-1">Jabónes exfoliantes corporales</p>
                         </div>
                     </div>
                 </div>
