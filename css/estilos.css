@@ -607,7 +607,8 @@ body {
     .losMasVendidos__titulo{ 
         font-size: 1.5em;
         padding-top: 1.5em;
-        padding-left: 2.5em;
+        /* padding-left: 2.5em; */
+        width: 85%;
     }
     .circulo {
         width: 8em;
