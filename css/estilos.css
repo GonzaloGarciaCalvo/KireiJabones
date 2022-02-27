@@ -748,12 +748,14 @@ body {
         flex-direction: row;
         justify-content: flex-end;
     }
-    /* .uno {
-        display: flex;
+    .footer{
+        height: 45em;
+        margin-left: 0 !important;
+        padding-left: 1em;
+        margin-top: 2em;
+        width: 100vw;
     }
-    .dos {
-        display: flex;
-    } */
+
 }
 
 /* @media (min-width: 577px) and (max-width: 576px) {
