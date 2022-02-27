@@ -162,6 +162,7 @@ body {
 .losMasVendidosMovil {
     display: none;
 }
+
         /**PROCESO DE COMPRA  **/
 .circuloWhatsapp {
     width: 4.8em;
@@ -474,13 +475,6 @@ body {
 
 /** MEDIAQUERIES  **/
 
-
-
-
-
-
-
-
 @media screen and (min-width:992px) and (max-width:1199.98px) {
     /* .banner2 {
         display: none
@@ -599,12 +593,13 @@ body {
         margin-bottom: 0em; 
     }
     .losMasVendidosMovil {
-        /* display: block; */
-        /* padding-left: 1.5em;
-        padding-right: 1.5em; */
+        display: block;
+        width: 100vw;
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin: 0;
+        padding: 0;
     }
     .boxCarrusel {
         display: none;
