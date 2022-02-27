@@ -376,10 +376,12 @@ body {
 }
 
 @media  screen and (max-width: 425px){
-    .footer{
+    .footer2{
         height: 45em;
-        margin-left: 1em;
+        margin-left: 0 !important;
+        padding-left: 1em;
         margin-top: 2em;
+        width: 100vw;
     }
     .contactos{
         width: 0;
@@ -748,13 +750,13 @@ body {
         flex-direction: row;
         justify-content: flex-end;
     }
-    .footer{
+    /* .footer{
         height: 45em;
         margin-left: 0 !important;
         padding-left: 1em;
         margin-top: 2em;
         width: 100vw;
-    }
+    } */
 
 }
 
