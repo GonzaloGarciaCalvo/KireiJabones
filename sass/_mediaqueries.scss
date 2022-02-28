@@ -1,22 +1,40 @@
 /** MEDIAQUERIES  **/
 
 @media screen and (min-width:992px) and (max-width:1199.98px) {
-    /* .banner2 {
-        display: none
-    }
-    .banner{
-        display: block
-    } */
     .navbar-brand {
         font-size: 1.5em;
         margin-left: 4.5em
     }
-    
     .navbar-nav{
         /* margin-right: 6.95em; */
         margin-right: 4.95em
     }
-
+    .nav-link a{
+        font-size: 1.05em;
+    }
+    .sloganBanner{
+        font-size: 2.9em;
+        position: absolute; left: 1.2em; top: 3em;
+        padding-left: 0;
+        /* width: 90%; */
+    }
+    .subTitulobanner{
+        font-size: 1.8em;
+        position: absolute; left: 1.6em; top: 8.3em;
+        width: 97%;
+        padding-right: 0;
+    }
+    .btnBanner {
+        width: 9em;
+        height: 2em;
+        position: absolute; left: 3.5em; top: 21em;
+        font-size: 1em;
+        margin-top: 0em;
+        margin-bottom: 0em; 
+    }
+    .navbar-nav a {
+        margin-right: 0.65em;
+    }
 }
 
 @media (min-width: 768px) and (max-width:991.98px) {
@@ -41,18 +59,25 @@
         margin-right: 2.95em;
     }
     .sloganBanner{
-        font-size: 1.7em;
-        position: absolute; left: 0.4em; top: 6em;
+        font-size: 2.1em;
+        position: absolute; left: 1.2em; top: 4.5em;
         padding-left: 0;
         width: 90%;
     }
     .subTitulobanner{
-        font-size: 1em;
-        position: absolute; left: 0.2em; top: 14.4em;
+        font-size: 1.25em;
+        position: absolute; left: 1.45em; top: 11.4em;
         width: 97%;
         padding-right: 0;
     }
-
+    .btnBanner {
+        width: 9em;
+        height: 2em;
+        position: absolute; left: 2.4em; top: 18.5em;
+        font-size: 1em;
+        margin-top: 0em;
+        margin-bottom: 0em; 
+    }
 }
 
 @media (min-width:577px) and (max-width:767.98px) {
@@ -63,16 +88,24 @@
         display: block
     }
     .sloganBanner{
-        font-size: 1.9em;
-        position: absolute; left: 0.4em; top: 9em;
+        font-size: 1.95em;
+        position: absolute; left: 0.8em; top: 4.5em;
         padding-left: 0;
         width: 90%;
     }
     .subTitulobanner{
-        font-size: 1.1em;
-        position: absolute; left: 0.2em; top: 7.4em;
+        font-size: 1.2em;
+        position: absolute; left: 0.6em; top: 11em;
         width: 97%;
         padding-right: 0;
+    }
+    .btnBanner {
+        width: 9em;
+        height: 2em;
+        position: absolute; left: 1.55em; top: 16.5em;
+        font-size: 1em;
+        margin-top: 0em;
+        margin-bottom: 0em; 
     }
 
 }
