@@ -1,0 +1,285 @@
+/*PAGINA INICIO*/
+/*BANNER*/
+.sloganBanner {
+	font-weight: 600;
+	font-size: 3.2em;
+	position: absolute;
+	left: 2.1em;
+	top: 3.7em;
+	width: 80%;
+	z-index: 1;
+}
+.subTitulobanner {
+	font-size: 1.9em;
+	z-index: 1;
+	position: absolute;
+	left: 3.6em;
+	top: 9.2em;
+	width: 90%;
+}
+.banner {
+	z-index: -1;
+	height: auto;
+	opacity: 0.73;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0;
+}
+.banner2 {
+	z-index: -1;
+	width: 100%;
+	height: auto;
+	opacity: 0.7;
+	display: none;
+	padding: 0;
+}
+.btnBanner {
+	/* width: 13.5em;
+                    height: 3.05em; */
+	width: 10em;
+	height: 2.4em;
+	position: absolute;
+	left: 6.9em;
+	top: 20.5em;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: row;
+	align-self: center;
+	font-size: 1.125em;
+	margin-top: 3.7em;
+	margin-bottom: 2.3em;
+	background-color: #fff1c3;
+	justify-content: center;
+	align-items: center;
+}
+/** CAROUSEL  **/
+.carousel-inner {
+	/* display: flex;
+                    flex-direction: row;
+                    justify-content: center; */
+	width: 85vw;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: auto;
+	padding-right: auto;
+}
+.tituloCarrusel {
+	font-weight: 900;
+	font-size: 2.2em;
+	text-align: center;
+	margin-bottom: 0em;
+	width: 98%;
+	padding-right: 0;
+	padding-left: 0;
+	padding-top: 1.3em;
+}
+.boxCarrusel {
+	height: 40em;
+	width: 100vw;
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 0;
+	margin-right: 0;
+	overflow-x: hidden;
+}
+/* .imagenDeCarrusel {
+                    width: 24em;
+                    height: 24em;
+                } */
+.card.subItemCarrusel {
+	width: 32.75%;
+	/*  width: auto; */
+}
+.carousel.slide {
+	width: 85vw;
+	/* width: 100%; */
+}
+.card-title {
+	text-align: center;
+}
+.losMasVendidosMovil {
+	display: none;
+}
+
+/**PROCESO DE COMPRA  **/
+.circuloWhatsapp {
+	width: 4.8em;
+	height: 4.8em;
+	border-radius: 50%;
+	background-color: #66db72;
+	position: sticky;
+	top: 55%;
+	left: 92%;
+	z-index: 3; /*sin esto pasa detras de las img con pos absolute  */
+	align-self: flex-end;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+}
+.circulo {
+	width: 10em;
+	height: 10em;
+	border-radius: 50%;
+	background-color: #d0b8d2;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.iconoInformacion {
+	width: 4.5em;
+	height: 4.55em;
+}
+.boxProcesoDeCompra {
+	background-color: #faeef8;
+	padding-top: 5.7em;
+	width: 100%;
+}
+.iconoWhastapp {
+	width: 2.7em;
+	height: 2.7em;
+}
+.descripcionProceso {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding-left: 3em;
+	padding-right: 3em;
+}
+.boxEtapaCompra {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+	/* width: 25%; */
+}
+.boxEtapaCompra h6 {
+	font-size: 1.5em;
+	font-weight: 900;
+	margin-top: 1em;
+}
+.boxEtapaCompra p {
+	width: 75%;
+	text-align: center;
+	font-size: 1.125em;
+}
+.tituloProcesoCompra {
+	font-size: 2.2em;
+	font-weight: 900;
+	text-align: center;
+	margin-top: 0em;
+	margin-bottom: 1.5em;
+}
+.boxCatalogoHome {
+	width: 100%;
+}
+.boxCatalogoHome p {
+	text-align: center;
+	font-size: 2.2em;
+	margin-top: 2em;
+	margin-bottom: 1.5em;
+	font-weight: 900;
+}
+.boxItemsCatalogo {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.itemCatalogoHome {
+	width: 26.3em;
+	height: auto;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	margin-bottom: 1em;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	box-sizing: border-box;
+	position: relative;
+}
+.card {
+	border-color: transparent;
+}
+.fondoCatalogo1 {
+	background-image: url("../images/catalogo1.jpg");
+	width: 25em;
+	height: 25em;
+}
+.imgCatalogoHome {
+	max-width: 100%;
+	height: auto;
+	z-index: -1;
+}
+.itemCatalogoHome p {
+	font-size: 1.2em;
+	margin-top: 0.5em;
+}
+.btnItemCatalogoHome {
+	width: 10em;
+	height: 2.4em;
+	display: flex;
+	flex-direction: row;
+	align-self: center;
+	font-size: 1.125em;
+	background-color: #d0b8d2;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1.9em;
+	position: absolute;
+	bottom: 4.9em;
+	z-index: 2;
+}
+.btnBoxCatalogoHome {
+	width: 13.5em;
+	height: 3.43em;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: row;
+	align-self: center;
+	font-size: 1.125em;
+	margin-top: 3em;
+	margin-bottom: 2.3em;
+	background-color: #fff1c3;
+	justify-content: center;
+	align-items: center;
+}
+/*** REDES ***/
+.boxRedes {
+	background-color: #faeef8;
+	width: 100vw;
+	margin: 0;
+}
+.imgBoxRedes {
+	width: 20em;
+}
+.boxRedes h6 {
+	text-align: center;
+	font-size: 2.5em;
+	font-weight: 700;
+	margin-top: 1.5em;
+}
+.boxRedes p {
+	text-align: center;
+	font-size: 1.8em;
+	margin-top: 0.4em;
+	margin-bottom: 0.8em;
+}
+.boxItemsRedes {
+	width: 100%;
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 8em;
+	padding: 0;
+	padding-left: 7em;
+	padding-right: 7em;
+	margin-left: 0;
+	margin-right: 0;
+}
