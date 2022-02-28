@@ -1,0 +1,284 @@
+/** MEDIAQUERIES  **/
+
+@media screen and (min-width:992px) and (max-width:1199.98px) {
+    /* .banner2 {
+        display: none
+    }
+    .banner{
+        display: block
+    } */
+    .navbar-brand {
+        font-size: 1.5em;
+        margin-left: 4.5em
+    }
+    
+    .navbar-nav{
+        /* margin-right: 6.95em; */
+        margin-right: 4.95em
+    }
+
+}
+
+@media (min-width: 768px) and (max-width:991.98px) {
+    .banner2 {
+        display: none
+    }
+    .banner{
+        display: block
+    }
+    .navbar-brand {
+        font-size: 1.5em;
+        margin-left: 2.5em
+    }
+    .nav-link a {
+        font-size: 1.1em;
+    }
+    .navbar-nav a {
+        margin-right: 0.6em;
+    }
+    
+    .navbar-nav{
+        margin-right: 2.95em;
+    }
+    .sloganBanner{
+        font-size: 1.7em;
+        position: absolute; left: 0.4em; top: 6em;
+        padding-left: 0;
+        width: 90%;
+    }
+    .subTitulobanner{
+        font-size: 1em;
+        position: absolute; left: 0.2em; top: 14.4em;
+        width: 97%;
+        padding-right: 0;
+    }
+
+}
+
+@media (min-width:577px) and (max-width:767.98px) {
+    .banner2 {
+        display: none
+    }
+    .banner{
+        display: block
+    }
+    .sloganBanner{
+        font-size: 1.9em;
+        position: absolute; left: 0.4em; top: 9em;
+        padding-left: 0;
+        width: 90%;
+    }
+    .subTitulobanner{
+        font-size: 1.1em;
+        position: absolute; left: 0.2em; top: 7.4em;
+        width: 97%;
+        padding-right: 0;
+    }
+
+}
+
+@media (max-width: 576.98px)  {
+    .body {
+        overflow: hidden !important;
+    }
+    .navbar{
+        height: 4em;
+    }
+    .navbar-brand {
+        margin-left: 0;
+    }
+    .banner2{
+        display: block;
+    }
+    .banner{
+        display: none;
+    }
+    .sloganBanner{
+        font-weight: 600;
+        font-size: 1.9em;
+        position: absolute; left: 0.4em; top: 3em;
+        z-index: 1;
+        padding-left: 0;
+        width: 90%;
+    }
+    .subTitulobanner{
+        font-size: 1.1em;
+        z-index: 1;
+        position: absolute; left: 0.2em; top: 8.4em;
+        width: 97%;
+        padding-right: 0;
+    }
+    .btnBanner {
+        width: 9em;
+        height: 2em;
+        position: absolute; left: 1.15em; top: 12.4em;
+        align-self: center;
+        font-size: 1em;
+        margin-top: 0em;
+        margin-bottom: 0em; 
+    }
+    .losMasVendidosMovil {
+        display: block;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    .boxCarrusel {
+        display: none;
+    }
+    .losMasVendidos__titulo{ 
+        font-size: 1.5em;
+        padding-top: 1.5em;
+        /* padding-left: 2.5em; */
+        width: 85%;
+    }
+    .circulo {
+        width: 8em;
+        height: 8em;
+        border-radius: 50%;
+        background-color: rgb(248, 253, 252);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .circuloWhatsapp {
+        width: 4em;
+        height: 4em;
+        position: sticky; top: 55%;
+        margin: 0;
+        padding: 0;
+    }
+    .iconoInformacion {
+        width: 4em;
+        height: 4em;
+    }
+    .itemCatalogoHome {
+        margin-bottom: 3em;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+    .boxRedes {
+        width: 100%;
+    }
+    .boxItemsRedes {
+        padding-left: 2em;
+        padding-right: 2em;
+        
+    }
+    .boxRedes h6 {
+        font-size: 1.8em;
+        margin-top: 1.5em;
+    }
+    .boxRedes p {
+        font-size: 1.5em;
+        margin-top: 0.3em;
+        margin-bottom: 0.6em;
+    }
+    .itemRedes {
+        /* width: 50%;
+        height: auto; */
+        margin-top: 0.4em;
+        padding-left: 0.2em;
+        padding-right: 0.2em;
+
+    }
+    .navbar-collapse {
+        background-color: #FBF6F2;
+        width: 40%;
+        z-index: 2;
+    }
+    /**nosotros  **/
+    .row.filaSuperiorNosotros {
+        --bs-gutter-x: 0rem;
+    }
+    .filaSuperiorNosotros {
+        
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin-top: 3em;
+        margin-bottom: 2em;
+    }
+    .boxTextoNos1{
+        width: 100vw;
+        padding-left: 2em;
+        padding-right: 2em;
+        font-size: 1.1em;
+        display: flex;
+        flex-direction: column;
+    }
+    .tituloNos {
+        font-size: 1.5em;
+        padding-top: 1em;
+    }
+    .card {
+        display: flex;
+    }
+    .boxImgNosotros1 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .boxImgNosotros2 {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .imgNosotros {
+        /* width: 100vw; */
+        width: 20em;
+        display: flex;
+        flex-direction: row;
+        /* align-self: center;
+        padding-left: auto;
+        padding-right: auto; */
+    }
+    .boxTextoNos2{
+        /* width: 100vw; */
+        padding-left: 2em;
+        padding-right: 2em;
+        font-size: 1.1em;
+    }
+    .parrafoBoxTextoNos2{
+        width: 100%;
+        height: auto;
+        padding-left: 0em;
+        padding-right: 0em;
+        padding-top: 1em;
+    }
+    .btnNosotros {
+        width: 9em;
+        height: 2em;
+        font-size: 1em;
+        margin-top: 2em;
+        margin-bottom: 0.5em;
+    }
+    .btnNosotros2 {
+        width: 9em;
+        height: 2em;
+        font-size: 1em;
+        margin-top: 2em;
+        margin-bottom: 0.5em;
+    }
+    .pruebaFlexbox {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    /* .footer{
+        height: 45em;
+        margin-left: 0 !important;
+        padding-left: 1em;
+        margin-top: 2em;
+        width: 100vw;
+    } */
+
+}
