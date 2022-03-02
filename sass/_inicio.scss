@@ -64,9 +64,6 @@ body {
 }
 /** CAROUSEL  **/
 .carousel-inner {
-	/* display: flex;
-                    flex-direction: row;
-                    justify-content: center; */
 	width: 85vw;
 	box-sizing: border-box;
 	margin-left: auto;
@@ -93,10 +90,6 @@ body {
 	margin-right: 0;
 	overflow-x: hidden;
 }
-/* .imagenDeCarrusel {
-                    width: 24em;
-                    height: 24em;
-                } */
 .card.subItemCarrusel {
 	width: 32.75%;
 	/*  width: auto; */
@@ -233,15 +226,24 @@ body {
 	height: 2.4em;
 	display: flex;
 	flex-direction: row;
-	align-self: center;
+	/* align-self: center; */
 	font-size: 1.125em;
 	background-color: #d0b8d2;
 	justify-content: center;
 	align-items: center;
 	margin-top: 1.9em;
-	position: absolute;
-	bottom: 4.9em;
+	position: absolute; bottom: 4.9em;
 	z-index: 2;
+	/* & a {
+		text-decoration: none;
+		color: black; 
+	}*/
+}
+.linkItemCatalogoHome {
+	width: 10em;
+	display: flex;
+	flex-direction: row;
+	align-self: center;
 }
 .btnBoxCatalogoHome {
 	width: 13.5em;
