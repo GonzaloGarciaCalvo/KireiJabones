@@ -68,12 +68,30 @@
 }
 
 
-@media  screen and (max-width: 425px){
+@media (min-width: 300px) and (max-width:399px){
     .general{
-        padding-left: 1em;
+        padding-left: 0;
+        width: 20em;
+        justify-content: center !important;
     }
     .cartaSeccion{
         margin-left: 0;
         margin-right: 1em;
+    }
+    .carta{
+        width: 18em;
+    }
+}
+@media (min-width: 400px) and (max-width:500px){
+    .general{
+        padding-left: 1em;
+        justify-content: center !important;
+    }
+    .cartaSeccion{
+        margin-left: 0;
+        margin-right: 1em;
+    }
+    .carta{
+        width: 21em;
     }
 }
