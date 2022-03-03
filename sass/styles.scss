@@ -97,3 +97,22 @@
         width: 21em;
     }
 }
+@media (min-width: 600px) and (max-width:800px){
+    .general{
+        padding-left: 1em;
+        justify-content: center !important;
+    }
+    .borde{
+        width: 10em;
+    }
+    .cartaSeccion{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .carta{
+        width: 11.5em;
+    }
+    .contenido{
+        gap: 1.5em;
+    }
+}
