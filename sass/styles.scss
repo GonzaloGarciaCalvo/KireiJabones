@@ -84,6 +84,9 @@
     .contenidoR{
         padding-left: 0;
     }
+    .tablet{
+        --bs-gutter-x: 0;
+    }
 }
 @media (min-width: 400px) and (max-width:500px){
     .general{
