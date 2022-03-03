@@ -32,7 +32,7 @@
     box-shadow: rgba(153, 153, 153, 0.473) 0 0 8px 0px;
 }
 
-@media  screen and (max-width: 425px){
+@media  screen and (max-width: 500px){
     .footer{
         height: 45em;
         margin-left: 1em;
@@ -47,5 +47,27 @@
     .iconoR{
         flex-wrap: nowrap;
         width: 3em;
+    }
+    .logo{
+        width: 10em;
+    }
+    .subtitulo_footer{
+        font-size: 1em;
+        margin-bottom: 0.5em;
+    }
+    .mapa{
+        font-size: 1em;
+        line-height: 1em;
+    }
+    .contactos{
+        font-size: 1em;
+        margin-top: 0.8em;
+        margin-bottom: 0.5em;
+    }
+    .iconos{
+        width: 2em;
+    }
+    .simboloContacto{
+        width: 1em;
     }
 }
