@@ -1,6 +1,6 @@
 .footer{
     height: 20em;
-    margin-left: 5em;
+    padding-left: 5em;
     margin-top: 5em;
 }
 .logo{
@@ -35,7 +35,7 @@
 @media  screen and (max-width: 500px){
     .footer{
         height: 45em;
-        margin-left: 1em;
+        padding-left: 1em;
         margin-top: 2em;
     }
     .contactos{
@@ -74,7 +74,7 @@
 @media (min-width: 600px) and (max-width:800px){
     .footer{
         width: 40em;
-        margin-left: 0.5em;
+        padding-left: 0.5em;
         margin-top: 1em;
         margin-right: 0.5em;
     }
