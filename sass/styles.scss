@@ -117,4 +117,22 @@
     .tablet{
         --bs-gutter-x: 0;
     }
+    @media (min-width: 800px) and (max-width:990px){
+    .carta{
+        width: 13em;
+    }
+    .contenido{
+        justify-content:center;
+        gap: 4em;
+    }
+}
+@media (min-width: 991px) and (max-width:1250px){
+    .carta{
+        width: 13em;
+    }
+    .contenido{
+        justify-content: start;
+        gap: 2em;
+    }
+}
 }
