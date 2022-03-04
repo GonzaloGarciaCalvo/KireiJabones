@@ -322,5 +322,14 @@
         margin-top: 2em;
         width: 100vw;
     } */
+    @media (max-width: 320px)  {
+        .circuloWhatsapp {
+            width: 4em;
+            height: 4em;
+            position: sticky; top: 55%; left: 76%;
+            margin: 0;
+            padding: 0;
+        }
+    }
 
 }
