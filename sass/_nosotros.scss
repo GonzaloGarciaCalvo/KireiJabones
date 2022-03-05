@@ -23,6 +23,9 @@
     padding-left: 6.88em;
     padding-right: 3em;
     font-size: 1.1em;
+    & a {
+        text-decoration: none;
+    }
 }
 .tituloNos {
     font-size: 2.2em;
@@ -56,6 +59,9 @@
     padding-right: 6.9em;
     padding-left: 6em;
     font-size: 1.1em;
+    & a {
+        text-decoration: none;
+    }
 }
 .parrafoBoxTextoNos2{
     padding-top: 2.5em;

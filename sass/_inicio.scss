@@ -7,6 +7,7 @@ body {
     overflow-x: hidden !important;
     font-family: 'Roboto', sans-serif; 
 }
+
 /*PAGINA INICIO*/
 /*BANNER*/
 .sloganBanner {
@@ -43,8 +44,6 @@ body {
 	padding: 0;
 }
 .btnBanner {
-	/* width: 13.5em;
-                    height: 3.05em; */
 	width: 10em;
 	height: 2.4em;
 	position: absolute;
@@ -92,11 +91,9 @@ body {
 }
 .card.subItemCarrusel {
 	width: 32.75%;
-	/*  width: auto; */
 }
 .carousel.slide {
 	width: 85vw;
-	/* width: 100%; */
 }
 .card-title {
 	text-align: center;
@@ -114,7 +111,7 @@ body {
 	position: sticky;
 	top: 55%;
 	left: 90%;
-	z-index: 3; /*sin esto pasa detras de las img con pos absolute  */
+	z-index: 3; 
 	align-self: flex-end;
 	display: flex;
 	flex-direction: row;
@@ -224,7 +221,6 @@ body {
 	height: 2.4em;
 	display: flex;
 	flex-direction: row;
-	/* align-self: center; */
 	font-size: 1.125em;
 	background-color: #d0b8d2;
 	justify-content: center;
@@ -232,16 +228,16 @@ body {
 	margin-top: 1.9em;
 	position: absolute; bottom: 4.9em;
 	z-index: 2;
-	/* & a {
-		text-decoration: none;
-		color: black; 
-	}*/
 }
 .linkItemCatalogoHome {
 	width: 10em;
 	display: flex;
 	flex-direction: row;
 	align-self: center;
+	text-decoration: none;
+}
+.boxCatalogoHome a {
+	text-decoration: none;
 }
 .btnBoxCatalogoHome {
 	width: 13.5em;
@@ -258,6 +254,8 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+
+
 /*** REDES ***/
 .boxRedes {
 	background-color: #faeef8;
