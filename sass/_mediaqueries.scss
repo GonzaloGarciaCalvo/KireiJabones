@@ -116,6 +116,22 @@
         top: 55%;
         left: 80%; 
     }
+    .boxImgNosotros1 {
+        padding-left: 2em !important;
+        padding-right: 2em;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .boxImgNosotros2 {
+        padding-left: 2em;
+        padding-right: 2em;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 }
 
 @media (max-width: 576.98px)  {
@@ -241,6 +257,7 @@
         margin-top: 3em;
         margin-bottom: 2em;
     }
+
     .boxTextoNos1{
         width: 100vw;
         padding-left: 2em;
@@ -309,13 +326,7 @@
         flex-direction: row;
         justify-content: flex-end;
     }
-    /* .footer{
-        height: 45em;
-        margin-left: 0 !important;
-        padding-left: 1em;
-        margin-top: 2em;
-        width: 100vw;
-    } */
+
     @media (max-width: 320px)  {
         .circuloWhatsapp {
             width: 4em;
