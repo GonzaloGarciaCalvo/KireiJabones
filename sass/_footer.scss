@@ -2,6 +2,7 @@
     height: 20em;
     padding-left: 5em;
     margin-top: 5em;
+    margin:0
 }
 .logo{
     width: 12em;
@@ -34,13 +35,16 @@
 }
 .borde_pie{
     box-shadow: rgba(153, 153, 153, 0.473) 0 0 8px 0px;
+    height: 20em;
 }
 
 @media  screen and (max-width: 500px){
     .footer{
-        height: 45em;
+        height: 35em;
         padding-left: 1em;
-        margin-top: 2em;
+    }
+    .borde_pie{
+        height: 35em;
     }
     .contactos{
         width: 0;
@@ -74,13 +78,22 @@
     .simboloContacto{
         width: 1em;
     }
+    .navegador{
+        padding-right: 0;
+    }
+    .footer .col-md-4 .container{
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 @media (min-width: 600px) and (max-width:800px){
     .footer{
-        width: 40em;
+        height: 46em;
         padding-left: 0.5em;
-        margin-top: 1em;
         margin-right: 0.5em;
+    }
+    .borde_pie{
+        height: 46em;
     }
     .contactos{
         width: 0;
