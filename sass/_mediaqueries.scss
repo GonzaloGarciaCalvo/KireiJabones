@@ -250,12 +250,17 @@
         --bs-gutter-x: 0rem;
     }
     .filaSuperiorNosotros {
-        
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
         margin-top: 3em;
         margin-bottom: 2em;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .filaInferiorNosotros {
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .boxTextoNos1{
