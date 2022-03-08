@@ -96,7 +96,7 @@
         width: 21em;
     }
 }
-@media (min-width: 600px) and (max-width:800px){
+@media (min-width: 600px) and (max-width:799.98px){
     .general{
         padding-left: 1em;
         justify-content: center !important;
@@ -106,10 +106,9 @@
     }
     .cartaSeccion{
         margin-left: 4em;
-        margin-right: 0;
     }
     .carta{
-        width: 11.5em;
+        width: 11.3em;
     }
     .contenido{
         gap: 1.5em;
@@ -117,22 +116,43 @@
     .tablet{
         --bs-gutter-x: 0;
     }
-    @media (min-width: 800px) and (max-width:990px){
+}
+@media (min-width: 800px) and (max-width:849.98px){
+    .cartaSeccion{
+        margin-left: 2.5em;
+    }
+    .carta {
+        width: 11.8em !important;
+    }
+}
+@media (min-width: 850px) and (max-width:990.98px){
+    .cartaSeccion{
+        margin-left: 2.5em;
+    }
     .carta{
-        width: 13em;
+        width: 13em !important;
     }
     .contenido{
         justify-content:center;
         gap: 4em;
     }
 }
-@media (min-width: 991px) and (max-width:1250px){
-    .carta{
-        width: 13em;
+@media screen and (min-width: 991px) and (max-width:1250.98px){
+    .cartaSeccion{
+        margin-left: 3em;
+    }
+    .card.carta{
+        width: 14em !important;
     }
     .contenido{
         justify-content: start;
         gap: 2em;
     }
+}
+
+@media (min-width: 1251px) and (max-width:1370px){
+    .carta{
+        width: 19em;
+    
 }
 }
