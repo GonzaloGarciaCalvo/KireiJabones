@@ -132,6 +132,12 @@
         flex-direction: row;
         justify-content: center;
     }
+    .row.filaSuperiorNosotros {
+        --bs-gutter-x: 0rem ;
+    }
+    .row.filaInferiorNosotros {
+        --bs-gutter-x: 0rem ;
+    }
 }
 
 @media (max-width: 576.98px)  {
@@ -247,7 +253,10 @@
     }
     /**nosotros  **/
     .row.filaSuperiorNosotros {
-        --bs-gutter-x: 0rem;
+        --bs-gutter-x: 0rem ;
+    }
+    .row.filaInferiorNosotros {
+        --bs-gutter-x: 0rem ;
     }
     .filaSuperiorNosotros {
         display: flex;
